@@ -1,0 +1,3 @@
+[submodule "social-leverage-trading/lib/forge-std"]
+	path = social-leverage-trading/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
