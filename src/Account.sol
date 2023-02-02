@@ -5,10 +5,6 @@ import {IDataContract} from "./IDataContract.sol";
 import {Investors} from "./Investors.sol";
 import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-    error TradeActive();
-    error TradeInActive();
-    error BalanceNotEnough();
-
 contract Account is Investors {
 
     address public manager;
